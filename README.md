@@ -1,4 +1,4 @@
-# Elite Zone Frontend
+# Mithila Borther Frontend - EliteZone
 
 This is a full-stack eCommerce web application built with React, featuring both a user-facing storefront and an admin panel accessible via the `/admin` route.
 
