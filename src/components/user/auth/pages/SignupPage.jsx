@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { registerUser, googleLogin, fetchUserData, updateUserData } from '../../../../redux/slices/authSlice';
 import UserDetailsModal from '../../../../shared/UserDetailsModal';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
-import banner from '../../../../assets/images/banner.jpg'
+import banner from '../../../../assets/images/banner.png'
 
 
 const Register = () => {
@@ -106,7 +106,7 @@ const Register = () => {
     };
 
     return (
-        <div className='font-Inter xl:min-h-screen flex flex-col   xl:mt-[60px] xl:mb-[140px] xl:pr-[135px] lg:pr-[100px] md:pr-[60px] pr-[20px] md:flex-row justify-center items-center'>
+        <div className='font-Inter xl:min-h-screen flex flex-col xl:pr-[135px] lg:pr-[100px] md:pr-[60px] pr-[20px] md:flex-row justify-center items-center'>
             {/* Left Side Image */}
             <div className='hidden md:block md:flex-1   justify-center items-center'>
                 <img

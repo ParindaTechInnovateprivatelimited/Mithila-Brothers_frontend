@@ -2,22 +2,14 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup, signOut } from 'firebase/auth';
 
 const firebaseConfig = {
-    // apiKey: "AIzaSyDJhz6xyTYMHfu8IholxWKL-GibqCKw63E",
-    // authDomain: "hyderabad-761d9.firebaseapp.com",
-    // projectId: "hyderabad-761d9",
-    // storageBucket: "hyderabad-761d9.appspot.com",
-    // messagingSenderId: "23220133878",
-    // appId: "1:23220133878:web:943442b5c2956fd0a531d7",
-    // measurementId: "G-34CG6816ES"
-
-    apiKey: "AIzaSyBlfOLPCEPcsbehKyq-rPqzfiFYYwSJDHk",
-    authDomain: "ecomm-241c2.firebaseapp.com",
-    projectId: "ecomm-241c2",
-    storageBucket: "ecomm-241c2.appspot.com",
-    messagingSenderId: "536497109749",
-    appId: "1:536497109749:web:1ba53ea98a86fdeb1363bc",
-    measurementId: "G-JS2G3ZLY8J"
-};
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
+  };
 
 const app = initializeApp(firebaseConfig);
 

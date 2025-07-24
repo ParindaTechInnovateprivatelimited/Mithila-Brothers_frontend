@@ -86,13 +86,13 @@ const About = () => {
                 <div className="flex flex-col md:flex-row items-center justify-around gap-8 xl:px-[135px] lg:px-[100px] md:px-[60px] px-[20px]">
                     <div className="tr">
                         <img
-                            src="https://res.cloudinary.com/dmao0koo4/image/upload/v1728128463/uploads/tmp-3-1728128460503_rlmmux.jpg"
+                            src="https://res.cloudinary.com/dmao0koo4/image/upload/v1753384981/IMG_1717_vr3bmg.png"
                             alt="Founder"
                             className="w-[370px] h-[430px] object-cover rounded mx-auto"
                         />
                         <h3 className="text-[32px] font-Inter font-normal leading-[30px] tracking-wider mt-[32px]">Amar Kumar</h3>
                         <p className=" text-black text-base font-normal font-Poppins leading-normal">Founder</p>
-                        <div className="flex justify-start gap-4 mt-[5px]">
+                        {/* <div className="flex justify-start gap-4 mt-[5px]">
                             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 text-xl cursor-pointer">
                                 <RiTwitterLine />
                             </a>
@@ -102,17 +102,17 @@ const About = () => {
                             <a href="https://www.linkedin.com/in/rahul-kumar-2bb72b29b/" target="_blank" rel="noopener noreferrer" className="text-blue-700 text-xl cursor-pointer" >
                                 <RiLinkedinLine />
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="t">
                         <img
-                            src="https://res.cloudinary.com/dmao0koo4/image/upload/v1728128005/uploads/tmp-1-1728128004401_il6oxm.jpg"
+                            src="https://res.cloudinary.com/dmao0koo4/image/upload/v1753384981/IMG_1718_eiunkg.png"
                             alt="Co-Founder"
                             className="w-[370px] h-[430px] object-cover rounded mx-auto"
                         />
                         <h3 className="text-[32px] font-Inter font-normal leading-[30px] tracking-wider mt-[32px]">Anshu Ranjan</h3>
                         <p className="text-black text-base font-normal font-Poppins leading-normal">Co-Founder</p>
-                        <div className="flex justify-start gap-4 mt-[5px]">
+                        {/* <div className="flex justify-start gap-4 mt-[5px]">
                             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 text-xl cursor-pointer">
                                 <RiTwitterLine />
                             </a>
@@ -122,17 +122,17 @@ const About = () => {
                             <a href="https://www.linkedin.com/in/rahul-kumar-2bb72b29b/" target="_blank" rel="noopener noreferrer" className="text-blue-700 text-xl cursor-pointer">
                                 <RiLinkedinLine />
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="t">
                         <img
-                            src="https://cdn.pixabay.com/photo/2019/10/10/18/51/smartphone-4540273_1280.jpg"
+                            src="https://res.cloudinary.com/dmao0koo4/image/upload/v1753384981/IMG_1719_vmmftj.png"
                             alt="Co-Founder"
-                            className="w-[370px] h-[430px] object-cover blur-[1px]  rounded mx-auto"
+                            className="w-[350px] h-[430px] object-fill blur-[1px]  rounded mx-auto"
                         />
                         <h3 className="text-[32px] font-Inter font-normal leading-[30px] tracking-wider mt-[32px]">Nawnit kumar</h3>
                         <p className="text-black text-base font-normal font-Poppins leading-normal">Founder</p>
-                        <div className="flex justify-start gap-4 mt-[5px]">
+                        {/* <div className="flex justify-start gap-4 mt-[5px]">
                             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 text-xl cursor-pointer">
                                 <RiTwitterLine />
                             </a>
@@ -142,7 +142,7 @@ const About = () => {
                             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-700 text-xl cursor-pointer">
                                 <RiLinkedinLine />
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <Banner />

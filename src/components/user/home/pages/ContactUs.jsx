@@ -23,8 +23,8 @@ const ContactUs = () => {
 
                     <div className='space-y-[16px]'>
                         <p className=" font-light leading-[21px] text-sm">We are available 24/7, 7 days a week.</p>
-                        <p className="font-light leading-[21px] text-sm"><Link to='tel:+91 9026478761'>Phone: +91 9026478761</Link></p>
-                        <p className="font-light leading-[21px] text-sm"><Link to='tel:+91 9532196978'>Phone: +91 9532196978</Link></p>
+                        <p className="font-light leading-[21px] text-sm"><Link to='tel:+91 7808863077'>Phone: +91 7808863077</Link></p>
+                        {/* <p className="font-light leading-[21px] text-sm"><Link to='tel:+91 9532196978'>Phone: +91 9532196978</Link></p> */}
                     </div>
 
                     <div className="border-t border-gray-300 my-[32px]"></div>
@@ -39,7 +39,7 @@ const ContactUs = () => {
 
                     <div className='space-y-[16px]'>
                         <p className='font-light leading-[21px] text-sm'>Fill out our form and we will contact you within 24 hours.</p>
-                        <p className="font-light leading-[21px] text-sm"><Link to='mailto:marketing.mithilabrothers@gmail.com'>Emails: marketing.mithilabrothers@gmail.com</Link></p>
+                        <p className="font-light leading-[21px] text-sm"><Link to='mailto:mithilabrothers.bihar25@gmail.com'>Emails: mithilabrothers.bihar25@gmail.com</Link></p>
                         {/* <p className="font-light leading-[21px] text-sm">Emails: support@exclusive.com</p> */}
                     </div>
                 </div>

@@ -1,5 +1,7 @@
 import React from 'react';
-import { RiFacebookLine, RiInstagramLine, RiTwitterLine, RiLinkedinLine } from "react-icons/ri";
+import { RiFacebookLine, RiInstagramLine, RiLinkedinLine } from "react-icons/ri";
+import { FaWhatsapp } from "react-icons/fa";
+
 import { Link } from 'react-router-dom';
 import { PiPaperPlaneRight } from "react-icons/pi";
 import { useSelector } from 'react-redux';
@@ -28,9 +30,9 @@ const Footer = () => {
           <div className='borer'>
             <h1 className="text-[#f9f9f9] text-xl font-medium font-Poppins leading-7">Support</h1>
             <div className='mt-[24px]'>
-              <h2 className=" text-left text-[#f9f9f9] text-base font-normal font-Poppins leading-normal ">71A, Rattan Bagh, Veena Enclave, Nangloi, Delhi 110041</h2>
-              <p className='text-lg mt-[16px] sm:mt-[16px]'><Link to='tel:+91 9026478761'>+91 9026478761</Link></p>
-              <p className='text-base mt-[16px] sm:mt-[16px]'><Link to='mailto:marketing.mithilabrothers@gmail.com'>marketing.mithilabrothers@gmail.com</Link></p>
+              <h2 className=" text-left text-[#f9f9f9] text-base font-normal font-Poppins leading-normal ">At+post- sapardah, ward no 09 P/S- Puraini District - Madhepura, Bihar</h2>
+              <p className='text-lg mt-[16px] sm:mt-[16px]'><Link to='tel:+91 7808863077'>+91 7808863077</Link></p>
+              <p className='text-base mt-[16px] sm:mt-[16px]'><Link to='mailto:mithilabrothers.bihar25@gmail.com'>mithilabrothers.bihar25@gmail.com</Link></p>
             </div>
           </div>
 
@@ -64,10 +66,10 @@ const Footer = () => {
               <h2 className=" opacity-70 text-[#f9f9f9] text-xs font-medium font-['Poppins'] leading-[18px]">Save 10% On Products with App New User Only Launching Soon !</h2>
             </div>
             <div className="flex space-x-[24px] justify-center sm:justify-start mt-[26px]">
-              <Link to="/"><RiFacebookLine className=" w-6 h-6 " /></Link>
-              <Link to="https://www.instagram.com/rahulk.softdev"><RiInstagramLine className="w-6 h-6" /></Link>
-              <Link to='/'><RiTwitterLine className="w-6 h-6" /></Link>
-              <Link to='https://www.linkedin.com/in/rahul-kumar-2bb72b29b/'><RiLinkedinLine className="w-6 h-6" /></Link>
+              <Link to="https://www.facebook.com/share/19aef5WJnV/"><RiFacebookLine className=" w-6 h-6 " /></Link>
+              <Link to="https://www.instagram.com/mithilabrothers2k25?igsh=MW4xbTdrOXdscGhxYQ=="><RiInstagramLine className="w-6 h-6" /></Link>
+              <Link to='https://wa.me/message/7MFAQXUUXV6QP1'><FaWhatsapp className="w-6 h-6" /></Link>
+              <Link to='https://www.linkedin.com/in/mithila-brothers-20295a374'><RiLinkedinLine className="w-6 h-6" /></Link>
             </div>
           </div>
         </div>
