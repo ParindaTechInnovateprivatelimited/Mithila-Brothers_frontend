@@ -10,14 +10,14 @@ import { BiStoreAlt } from "react-icons/bi";
 
 const About = () => {
     return (
-        <div className="lg:mt-[80px] mb-[100px]">
+        <div className="lg:mt-[80px] mb-[60px]">
             <div className="xl:px-[135px] lg:px-[100px] md:px-[60px] px-[20px]">
                 <Breadcrumbs />
             </div>
             <div className="space-y-[140px]">
                 <div className="flex flex-col md:flex-row items-center gap-8 xl:pl-[135px] lg:pl-[100px] md:pl-[60px] pl-[20px] sm:pr-0 pr-[20px]">
                     <div className="md:w-1/2 my-auto">
-                        <h2 className="text-[54px] font-Inter tracking-[3.24px] font-bold text-black mb-[40px]">Our Story</h2>
+                        <h2 className="text-[54px] font-Inter tracking-[3.24px] font-bold text-black mb-[40px]">Ours Story</h2>
                         <p className="text-gray-600 text-base font-Poppins leading-relaxed">
                             Mithila Brothers is a dream to bring Bihar closer to every heart, no matter
                             where you live. Many of us miss our villages — the sweet smell of
@@ -37,13 +37,21 @@ const About = () => {
                             family, you keep an art alive, and you celebrate Bihar.
                         </p>
                     </div>
-                    <div className="md:w-1/2 h-[609px]">
+                    {/* <div className="md:w-1/2 h-[550px] mx-auto border">
                         <img
-                            src="https://img.freepik.com/premium-photo/woman-using-cell-phone-business-office_961875-276918.jpg?ga=GA1.1.1665155854.1721153222&semt=ais_hybrid"
+                            src="Logo.png"
                             alt="Our Story"
                             className="w-full object-cover rounded-l h-[609px]"
                         />
+                    </div> */}
+                    <div className="md:w-1/2 h-[550px] mx-auto flex items-center justify-center">
+                        <img
+                            src="Logo.png"
+                            alt="Our Story"
+                            className="w-[500px] h-[500px] object-cover rounded-l"
+                        />
                     </div>
+
                 </div>
 
                 {/* Statistics Section */}
