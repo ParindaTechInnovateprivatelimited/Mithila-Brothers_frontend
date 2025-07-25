@@ -149,7 +149,7 @@ const Sidebar = () => {
 const HeroSection = () => {
     const banners = [
         {
-            image: 'https://res.cloudinary.com/dmao0koo4/image/upload/v1753293898/WhatsApp_Image_2025-07-23_at_17.53.20_g1ay92.jpg',
+            image: 'https://res.cloudinary.com/dmao0koo4/image/upload/q_auto/v1753293898/WhatsApp_Image_2025-07-23_at_17.53.20_g1ay92.jpg',
             title: "Bihar ki Sanskriti, Aapke Ghar Tak",
             subtitle: "Discover Authentic Bihari Essence",
             description: "Explore Mithila’s rich heritage—handpicked delicacies, handicrafts & more straight from Bihar",
@@ -157,7 +157,7 @@ const HeroSection = () => {
             badge: "New Arrival"
         },
         {
-            image: 'https://res.cloudinary.com/dmao0koo4/image/upload/v1753293898/WhatsApp_Image_2025-07-23_at_17.53.20_1_qixpmy.jpg',
+            image: 'https://res.cloudinary.com/dmao0koo4/image/upload/q_auto/v1753293898/WhatsApp_Image_2025-07-23_at_17.53.20_1_qixpmy.jpg',
             title: "Taste of Tradition",
             subtitle: "Swaad Jo Yaad Rahe",
             description: "From Thekua to Litti-Chokha – relish Bihar’s most iconic flavors crafted with love and purity",
@@ -165,7 +165,7 @@ const HeroSection = () => {
             badge: "Best Seller"
         },
         {
-            image: 'https://res.cloudinary.com/dmao0koo4/image/upload/v1753293898/WhatsApp_Image_2025-07-23_at_17.53.21_vsuaak.jpg',
+            image: 'https://res.cloudinary.com/dmao0koo4/image/upload/q_auto/v1753293898/WhatsApp_Image_2025-07-23_at_17.53.21_vsuaak.jpg',
             title: "Mithila Art Magic",
             subtitle: "Paintings That Speak",
             description: "Adorn your home with vibrant Mithila paintings made by skilled rural artists",
@@ -173,7 +173,7 @@ const HeroSection = () => {
             badge: "Handmade"
         },
         {
-            image: 'https://res.cloudinary.com/dmao0koo4/image/upload/v1753293898/WhatsApp_Image_2025-07-23_at_17.53.21_1_qoqbfm.jpg',
+            image: 'https://res.cloudinary.com/dmao0koo4/image/upload/q_auto/v1753293898/WhatsApp_Image_2025-07-23_at_17.53.21_1_qoqbfm.jpg',
             title: "Cultural Gifting",
             subtitle: "Gifts with a Story",
             description: "Surprise your loved ones with culturally rooted Bihari gift hampers & festive bundles",

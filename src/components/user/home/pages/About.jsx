@@ -86,7 +86,7 @@ const About = () => {
                 <div className="flex flex-col md:flex-row items-center justify-around gap-8 xl:px-[135px] lg:px-[100px] md:px-[60px] px-[20px]">
                     <div className="tr">
                         <img
-                            src="https://res.cloudinary.com/dmao0koo4/image/upload/v1753384981/IMG_1717_vr3bmg.png"
+                            src="https://res.cloudinary.com/dmao0koo4/image/upload/q_auto/v1753384981/IMG_1717_vr3bmg.png"
                             alt="Founder"
                             className="w-[370px] h-[430px] object-cover rounded mx-auto"
                         />
@@ -106,7 +106,7 @@ const About = () => {
                     </div>
                     <div className="t">
                         <img
-                            src="https://res.cloudinary.com/dmao0koo4/image/upload/v1753384981/IMG_1718_eiunkg.png"
+                            src="https://res.cloudinary.com/dmao0koo4/image/upload/q_auto/v1753384981/IMG_1718_eiunkg.png"
                             alt="Co-Founder"
                             className="w-[370px] h-[430px] object-cover rounded mx-auto"
                         />
@@ -126,7 +126,7 @@ const About = () => {
                     </div>
                     <div className="t">
                         <img
-                            src="https://res.cloudinary.com/dmao0koo4/image/upload/v1753384981/IMG_1719_vmmftj.png"
+                            src="https://res.cloudinary.com/dmao0koo4/image/upload/q_auto/v1753384981/IMG_1719_vmmftj.png"
                             alt="Co-Founder"
                             className="w-[350px] h-[430px] object-fill blur-[1px]  rounded mx-auto"
                         />
