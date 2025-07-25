@@ -9,7 +9,7 @@ const Policy = () => {
             </div>
             <h1 className="text-4xl font-bold mb-6 ">Privacy Policy</h1>
             <p className="text-gray-700 mb-6">
-                This Privacy Policy describes how <strong>EliteZone</strong> and its affiliates (collectively "<strong>RAHUL</strong>, we, our, us") collect, use, share, protect or otherwise process your information/ personal data through our website <a href="https://elitezone.in/" className="text-primary underline">https://elitezone.in/</a> (hereinafter referred to as Platform). Please note that you may be able to browse certain sections of the Platform without registering with us. We do not offer any product/service under this Platform outside India and your personal data will primarily be stored and processed in India. By visiting this Platform, providing your information or availing any product/service offered on the Platform, you expressly agree to be bound by the terms and conditions of this Privacy Policy, the Terms of Use and the applicable service/product terms and conditions, and agree to be governed by the laws of India including but not limited to the laws applicable to data protection and privacy. If you do not agree please do not use or access our Platform.
+                This Privacy Policy describes how <strong>MITHILA BROHTERS</strong> and its affiliates (collectively "<strong>MITHILA BROHTERS</strong>, we, our, us") collect, use, share, protect or otherwise process your information/ personal data through our website <a href="https://www.mithilabrothers.com/" className="text-primary underline">https://www.mithilabrothers.com/</a> (hereinafter referred to as Platform). Please note that you may be able to browse certain sections of the Platform without registering with us. We do not offer any product/service under this Platform outside India and your personal data will primarily be stored and processed in India. By visiting this Platform, providing your information or availing any product/service offered on the Platform, you expressly agree to be bound by the terms and conditions of this Privacy Policy, the Terms of Use and the applicable service/product terms and conditions, and agree to be governed by the laws of India including but not limited to the laws applicable to data protection and privacy. If you do not agree please do not use or access our Platform.
             </p>
 
             <h2 className="text-2xl font-semibold mt-4 mb-2 ">1. Collection</h2>
@@ -23,7 +23,7 @@ const Policy = () => {
                 We will also collect your information related to your transactions on the Platform and such third-party business partner platforms. When such a third-party business partner collects your personal data directly from you, you will be governed by their privacy policies. We shall not be responsible for the third-party business partner’s privacy practices or the content of their privacy policies, and we request you to read their privacy policies prior to disclosing any information.
             </p>
             <p className="text-gray-700 mb-4">
-                If you receive an email or a call from someone claiming to be <strong>EliteZone</strong> seeking personal data like debit/credit card PIN, net banking, or mobile banking password, we request you to never provide such information. If you have already revealed such information, report it immediately to the appropriate law enforcement agency.
+                If you receive an email or a call from someone claiming to be <strong>MITHILA BROHTERS</strong> seeking personal data like debit/credit card PIN, net banking, or mobile banking password, we request you to never provide such information. If you have already revealed such information, report it immediately to the appropriate law enforcement agency.
             </p>
 
             <h2 className="text-2xl font-semibold mt-4 mb-2 text--00">2. Usage</h2>
@@ -82,8 +82,8 @@ const Policy = () => {
                 If you have any questions or concerns regarding this Privacy Policy, please contact us at:
             </p>
             <p className="text-gray-700 mb-4">
-                Email: support@elitezone.in<br />
-                Phone: +91 902 647 8761
+                Email: mithilabrother.bihar25@gmail.com<br />
+                Phone: +91 780 886 3077
             </p>
         </div>
     );

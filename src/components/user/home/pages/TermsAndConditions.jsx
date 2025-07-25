@@ -11,13 +11,13 @@ const TermsAndConditions = () => {
             <p className="mb-4">
                 1. This document is published in accordance with the provisions of Rule 3 (1) of the Information Technology
                 (Intermediaries Guidelines) Rules, 2011, which require publishing the rules, regulations, privacy policy,
-                and Terms of Use for access or usage of the domain name <a href="https://elitezone.in" className="text-primary underline">https://elitezone.in/</a>
+                and Terms of Use for access or usage of the domain name <a href="https://www.mithilabrothers.com/" className="text-primary underline">https://www.mithilabrothers.com/</a>
                 (hereinafter referred to as 'Website'), including the related mobile site and mobile application (hereinafter
                 referred to as 'Platform').
             </p>
 
             <p className="mb-4">
-                2. The Platform is owned by <strong>RAHUL</strong>, a company incorporated under the Companies Act, 1956, with its registered
+                2. The Platform is owned by <strong>MITHILA BROHTERS</strong>, a company incorporated under the Companies Act, 1956, with its registered
                 office at 71 Ratan Bagh, Veena Enclave, Nangloi Railway Station, New Delhi, India (hereinafter referred to as
                 ‘Platform Owner’, 'we', 'us', 'our').
             </p>
