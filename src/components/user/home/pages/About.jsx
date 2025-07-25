@@ -44,11 +44,11 @@ const About = () => {
                             className="w-full object-cover rounded-l h-[609px]"
                         />
                     </div> */}
-                    <div className="md:w-1/2 h-[550px] mx-auto flex items-center justify-center">
+                    <div className="md:w-1/2 max-h-[550px] h-full mx-auto flex items-center justify-center">
                         <img
                             src="Logo.png"
                             alt="Our Story"
-                            className="w-[500px] h-[500px] object-cover rounded-l"
+                            className="max-w-[500px] w-full max-h-[500px] h-full object-cover rounded-l"
                         />
                     </div>
 

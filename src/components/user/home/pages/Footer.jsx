@@ -55,15 +55,16 @@ const Footer = () => {
                 <h1 className="text-[#f9f9f9] text-xl font-medium font-Poppins leading-7">Quick Link</h1>
                 <li><Link to='/privacy-policy'>Privacy Policy</Link></li>
                 <li><Link to='/terms-of-use'>Terms of Use</Link></li>
-                <li><Link to='/'>FAQ</Link></li>
+                {/* <li><Link to='/'>FAQ</Link></li> */}
                 <li><Link to='contact'>Contact</Link></li>
               </ul>
             </div>
           </div>
           <div className='borer'>
-            <h1 className="text-[#f9f9f9]  text-xl font-medium font-Poppins leading-7">Download App</h1>
+            <h1 className="text-[#f9f9f9]  text-xl font-medium font-Poppins leading-7">Follow Us</h1>
             <div className='mt-[24px]'>
-              <h2 className=" opacity-70 text-[#f9f9f9] text-xs font-medium font-['Poppins'] leading-[18px]">Save 10% On Products with App New User Only Launching Soon !</h2>
+              <h2 className=" opacity-70 text-[#f9f9f9] text-xs font-medium font-['Poppins'] leading-[18px]">  🔔 Stay Connected! Follow us on social media for updates, offers, and more – Let’s grow together!
+              </h2>
             </div>
             <div className="flex space-x-[24px] justify-center sm:justify-start mt-[26px]">
               <Link to="https://www.facebook.com/share/19aef5WJnV/"><RiFacebookLine className=" w-6 h-6 " /></Link>
