@@ -32,7 +32,7 @@ const Footer = () => {
             <div className='mt-[24px]'>
               <h2 className=" text-left text-[#f9f9f9] text-base font-normal font-Poppins leading-normal ">At+post- sapardah, ward no 09 P/S- Puraini District - Madhepura, Bihar</h2>
               <p className='text-lg mt-[16px] sm:mt-[16px]'><Link to='tel:+91 7808863077'>+91 7808863077</Link></p>
-              <p className='text-base mt-[16px] sm:mt-[16px]'><Link to='mailto:mithilabrothers.bihar25@gmail.com'>mithilabrothers.bihar25@gmail.com</Link></p>
+              <p className='text-base mt-[16px] sm:mt-[16px]'><Link to='mailto:mithilabrother.bihar25@gmail.com'>mithilabrother.bihar25@gmail.com</Link></p>
             </div>
           </div>
 

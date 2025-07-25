@@ -39,7 +39,7 @@ const ContactUs = () => {
 
                     <div className='space-y-[16px]'>
                         <p className='font-light leading-[21px] text-sm'>Fill out our form and we will contact you within 24 hours.</p>
-                        <p className="font-light leading-[21px] text-sm"><Link to='mailto:mithilabrothers.bihar25@gmail.com'>Emails: mithilabrothers.bihar25@gmail.com</Link></p>
+                        <p className="font-light leading-[21px] text-sm"><Link to='mailto:mithilabrother.bihar25@gmail.com'>Emails: mithilabrother.bihar25@gmail.com</Link></p>
                         {/* <p className="font-light leading-[21px] text-sm">Emails: support@exclusive.com</p> */}
                     </div>
                 </div>
