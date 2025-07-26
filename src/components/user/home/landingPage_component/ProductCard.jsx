@@ -69,7 +69,7 @@ const ProductCard = ({ image, title, description, Link: productLink }) => {
             </div>
             
             {/* Hover Effect Border */}
-            <div className="absolute inset-0 border-2 border-transparent group-hover:border-primary/30 rounded-xl transition-colors duration-300"></div>
+            {/* <div className="absolute inset-0 border-2 border-transparent group-hover:border-primary/30 rounded-xl transition-colors duration-300"></div> */}
         </div>
     );
 };
