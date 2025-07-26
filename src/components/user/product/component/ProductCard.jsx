@@ -136,7 +136,7 @@ const ProductCard = ({ product, data }) => {
   const isLiked = value.isLiked;
 
   return (
-    <div className="max-w-[140px] sm:max-w-[270px] sm:w-[270px] font-Poppins relative mx-auto">
+    <div className="min-w-[140px] sm:min-w-[270px] sm:w-[270px] font-Poppins relative mx-auto">
       <div>
         <div className='group font-Poppins relative sm:h-[280px] border-black overflow-hidden'>
           <Link to={generateLink()}>

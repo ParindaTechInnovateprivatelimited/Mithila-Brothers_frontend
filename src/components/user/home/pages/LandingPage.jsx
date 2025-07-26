@@ -143,9 +143,9 @@ const LandingPage = () => {
                 <div className='xl:px-[135px] lg:px-[100px] md:px-[60px] px-[20px]'>
                     <div className="relative overflow-hidden rounded-2xl lg:rounded-3xl shadow-xl lg:shadow-2xl hover:shadow-2xl lg:hover:shadow-3xl transition-all duration-500 transform hover:scale-[1.02] group">
                         <img
-                            src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                            src="https://res.cloudinary.com/dmao0koo4/image/upload/v1753553112/wbjnxfhapnwdmf7orfrl_yffelm.webp"
                             alt="Special Offer Banner"
-                            className='w-full h-[250px] sm:h-[300px] lg:h-[400px] object-cover group-hover:scale-110 transition-transform duration-700'
+                            className='w-full h-[250px] sm:h-[300px] lg:h-[400px] object-cover group-hover:scale-105 transition-transform duration-700'
                         />
                         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent"></div>
 

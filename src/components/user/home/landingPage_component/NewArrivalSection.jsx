@@ -18,14 +18,14 @@ const NewArrivalSection = ({ title, subtitle }) => {
                         </h2>
                         <p className="text-gray-600 mt-2 font-Poppins text-sm sm:text-base">
                             Explore bamboo and clay products to add a natural, earthy touch to
-your home.
+                            your home.
                         </p>
                     </div>
                 </div>
 
                 {/* Products Grid */}
                 <div className='relative'>
-                        <ArrivalCards />
+                    <ArrivalCards />
                 </div>
             </div>
         </div>

@@ -55,6 +55,7 @@ const About = () => {
                 </div>
 
                 {/* Statistics Section */}
+               {/* 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 xl:px-[135px] lg:px-[100px] md:px-[60px] px-[20px]">
                     <div className="bg-white w-[270px] py-5 mx-auto h-[230px] border rounded shadow text-center hover:bg-primary hover:text-white transition-all duration-300 ease-in-out group">
                         <div className="p-2 bg-black/50 group-hover:bg-white/50 h-20 w-20 rounded-full mb-[24px] mx-auto transition-all duration-300 ease-in-out">
@@ -88,7 +89,7 @@ const About = () => {
                         <p className="text-gray-600 text-sm group-hover:text-white transition-all duration-300 ease-in-out">Annual gross sales on our site</p>
                     </div>
                 </div>
-
+                */}
 
                 {/* Founder and Co-founder Section */}
                 <div className="flex flex-col md:flex-row items-center justify-around gap-8 xl:px-[135px] lg:px-[100px] md:px-[60px] px-[20px]">
@@ -134,9 +135,9 @@ const About = () => {
                     </div>
                     <div className="t">
                         <img
-                            src="https://res.cloudinary.com/dmao0koo4/image/upload/q_auto/v1753384981/IMG_1719_vmmftj.png"
+                            src="https://res.cloudinary.com/dmao0koo4/image/upload/v1753553110/i9ozk2q0ivaavl43s5ca_wutm8r.webp"
                             alt="Co-Founder"
-                            className="w-[350px] h-[430px] object-fill blur-[1px]  rounded mx-auto"
+                            className="w-[370px] h-[430px] object-fill rounded mx-auto"
                         />
                         <h3 className="text-[32px] font-Inter font-normal leading-[30px] tracking-wider mt-[32px]">Nawnit kumar</h3>
                         <p className="text-black text-base font-normal font-Poppins leading-normal">Founder</p>
