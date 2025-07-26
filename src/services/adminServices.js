@@ -40,6 +40,18 @@ export const getProducts = async() =>{
     }
 }
 
+export const updateProducts = async(productId,formData) =>{
+    try {
+        const response = await axios.put(`${API_URL}/products/${productId}`, formData, {
+            withCredentials: true
+        });
+        return response.data;
+    } catch (error) {
+        console.log(error)
+        throw error.response.data
+    }
+}
+
 export const getProductById = async(id) =>{
     try {
         const response = await axios.get(`${API_URL}/products/${id}`,{

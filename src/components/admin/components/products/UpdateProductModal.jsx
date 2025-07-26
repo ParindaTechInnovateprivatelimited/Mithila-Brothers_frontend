@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
+import { updateProducts } from '../../../../services/adminServices';
+import { fetchProducts } from '../../../../redux/slices/adminSlice';
+import { useDispatch } from 'react-redux';
+import toast from 'react-hot-toast';
 
 const UpdateProductModal = ({ isOpen, onClose, product }) => {
+    const dispatch = useDispatch();
     const [updatedProduct, setUpdatedProduct] = useState({
         productName: '',
         stock: '',
@@ -16,7 +21,7 @@ const UpdateProductModal = ({ isOpen, onClose, product }) => {
                 productName: product.productName || '',
                 stock: product.stock || '',
                 price: product.price || '',
-                size: product.size || '',
+                size: product.size?.join(', ') || '',
                 description: product.description || ''
             });
         }
@@ -24,15 +29,37 @@ const UpdateProductModal = ({ isOpen, onClose, product }) => {
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        setUpdatedProduct((prevData) => ({
-            ...prevData,
-            [name]: value
-        }));
+        setUpdatedProduct((prev) => ({ ...prev, [name]: value }));
     };
 
-    const handleSubmit = () => {
-        console.log("Updated Product:", updatedProduct);
-        onClose();
+    const handleSubmit = async () => {
+        const formattedProduct = {
+            productName: updatedProduct.productName.trim(),
+            price: parseFloat(updatedProduct.price),
+            description: updatedProduct.description.trim(),
+            stock: parseInt(updatedProduct.stock, 10),
+            size: updatedProduct.size.split(',').map(s => s.trim()).filter(Boolean)
+        };
+
+        const updatePromise = updateProducts(product._id, formattedProduct);
+
+        toast.promise(
+            updatePromise,
+            {
+                loading: 'Updating product...',
+                success: 'Product updated successfully!',
+                error: (err) =>
+                    err?.response?.data?.message || 'Failed to update product. Please try again.',
+            }
+        );
+        try {
+            const res = await updatePromise;
+            onClose(); // Close modal or drawer
+            dispatch(fetchProducts()); // Refresh the product list
+        } catch (error) {
+            console.error('Update failed:', error);
+        }
+
     };
 
     if (!isOpen) return null;

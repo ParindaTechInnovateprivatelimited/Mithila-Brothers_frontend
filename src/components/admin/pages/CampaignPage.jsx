@@ -63,12 +63,12 @@ const CampaignPage = () => {
                         >
                             Add / Create Offer
                         </button>
-                        <button
+                        {/* <button
                             className="px-4 py-3 bg-primary hover:opacity-80 text-white rounded justify-start items-start gap-4 inline-flex text-sm font-semibold font-Inter leading-snug"
                             onClick={openModal}
                         >
                             Add / Create Campaign
-                        </button>
+                        </button> */}
                         <OfferModal isOpen={isOfferModalOpen} onClose={() => setIsOfferModalOpen(false)} />
                         <CampaignModal isOpen={isModalOpen} onClose={closeModal} />
                     </div>
