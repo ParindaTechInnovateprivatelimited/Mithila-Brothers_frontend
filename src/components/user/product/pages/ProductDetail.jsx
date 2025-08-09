@@ -232,8 +232,8 @@ const ProductDetails = () => {
             <div className="w-full ">
               <h1 className="text-3xl">{products.product.productName}</h1>
               <div className=' align-middle py-auto flex gap-3 mb-1'>
-                <ProductReviews reviews={products.product.rating} />
-                <span className="text-sm my-auto text-gray-500 mt-2 font-Poppins">({products.product.reviewCount} Reviews) |</span>
+                {/* <ProductReviews reviews={products.product.rating} /> */}
+                {/* <span className="text-sm my-auto text-gray-500 mt-2 font-Poppins">({products.product.reviewCount} Reviews) |</span> */}
                 <span className={`text-sm my-auto mt-2 font-Poppins ${products.product.inStock ? 'text-green-500' : 'text-primary'}`}>
                   {products.product.inStock ? 'In Stock' : 'Out of Stock'}
                 </span>
@@ -354,7 +354,7 @@ const ProductDetails = () => {
                   <HiArrowPath className='w-10 h-10' />
                   <div>
                     <h1 className='text-black text-base font-normal font-TenorSans leading-normal'>Return Delivery</h1>
-                    <p className='text-black text-xs font-normal leading-[18px]'>Free 30 Days Delivery Returns. <span className='underline'>Details</span></p>
+                    <p className='text-black text-xs font-normal leading-[18px]'>Free 5 Days Delivery Returns. <span className='underline'>Details</span></p>
                   </div>
                 </div>
               </div>
